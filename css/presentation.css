@@ -201,6 +201,15 @@ a:focus {
 
 .impress-enabled .step.active { opacity: 1 }
 
+.main-title {
+    font-size: 60px;
+    font-style: bold;
+}
+
+.content {
+    font-size: 32px;
+}
+
 /*
     These 'slide' step styles were heavily inspired by HTML5 Slides:
     http://html5slides.googlecode.com/svn/trunk/styles.css
@@ -266,6 +275,14 @@ a:focus {
 
 .list-item:before {
     content: "* ";
+}
+
+/*
+ *  Style for presentation category.
+ */
+
+#category li {
+    line-height: 50px;
 }
 
 /*
