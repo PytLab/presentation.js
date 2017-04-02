@@ -203,7 +203,7 @@
 
         perspective: 1000,
 
-        transitionDuration: 1000
+        transitionDuration: 300
     };
 
     // It's just an empty function ... and a useless comment.
