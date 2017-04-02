@@ -60,6 +60,9 @@ body {
 ol, ul {
     list-style: none;
 }
+li {
+    overflow: hidden;
+}
 blockquote, q {
     quotes: none;
 }
@@ -241,34 +244,14 @@ a:focus {
 
 /*
     And now we start to style each step separately.
-
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styled separately.
-
-    First is the title step with a big <h1> (no room for padding) and some
-    3D positioning along Z axis.
 */
 
 #title {
     padding: 0;
 }
 
-#title .try {
-    font-size: 64px;
-    position: absolute;
-    top: -0.5em;
-    left: 1.5em;
-
-    -webkit-transform: translateZ(20px);
-    -moz-transform:    translateZ(20px);
-    -ms-transform:     translateZ(20px);
-    -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
-}
-
 #title h1 {
-    font-size: 190px;
+    font-size: 100px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
@@ -277,8 +260,12 @@ a:focus {
     transform:         translateZ(50px);
 }
 
-#title .footnote {
+.list-item {
     font-size: 32px;
+}
+
+.list-item:before {
+    content: "* ";
 }
 
 /*
