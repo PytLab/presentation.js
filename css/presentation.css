@@ -251,9 +251,10 @@ a:focus {
     white-space: nowrap;
 }
 
+
 /*
-    And now we start to style each step separately.
-*/
+ * Some common styles.
+ */
 
 #title {
     padding: 0;
@@ -275,6 +276,20 @@ a:focus {
 
 .list-item:before {
     content: "* ";
+}
+
+.content {
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.content .single-image {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 2px 0px 0px grey;
+    -webkit-box-shadow: 2px 0px 5px grey;
+    -moz-box-shadow: 5px 5px 5px black;
+    -o-box-shadow: 5px 5px 5px black;
 }
 
 /*
