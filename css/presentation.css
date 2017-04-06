@@ -256,20 +256,33 @@ a:focus {
  * Some common styles.
  */
 
+/* Font colors */
+.red {
+    color: #DA636E;
+}
+
+.blue {
+    color: #026095;
+}
+
+.green {
+    color: #65B04A;
+}
+
+.purple {
+    color: #A271C8;
+}
+
+/* Title for each slide */
 #title {
     padding: 0;
 }
 
 #title h1 {
     font-size: 100px;
-
-    -webkit-transform: translateZ(50px);
-    -moz-transform:    translateZ(50px);
-    -ms-transform:     translateZ(50px);
-    -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
 }
 
+/* List item */
 .list-item {
     font-size: 32px;
 }
@@ -278,6 +291,7 @@ a:focus {
     content: "* ";
 }
 
+/* Content for each slide */
 .content {
     font-size: 32px;
     line-height: 50px;
