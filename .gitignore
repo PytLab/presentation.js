@@ -6,4 +6,5 @@
 
 # my presentation html
 /presentations/*.html
+*.png
 
