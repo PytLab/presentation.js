@@ -190,7 +190,7 @@ a:focus {
 */
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.3;
+    opacity: 0.1;
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
@@ -297,8 +297,8 @@ a:focus {
     line-height: 50px;
 }
 
-.content .single-image {
-    width: 100%;
+.single-image {
+    max-width: 800px;
     margin: 0 auto;
     box-shadow: 2px 0px 0px grey;
     -webkit-box-shadow: 2px 2px 5px grey;
